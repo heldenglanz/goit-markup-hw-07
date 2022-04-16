@@ -1,0 +1,71 @@
+.header-contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+ 
+   .header-mail {
+     margin-right: 50px;
+   }
+   .header-link,
+   .header-mail,
+   .header-tel{
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     color: var(--main-color);
+     transition-property:color;
+    
+   }
+   .header-mail,
+   .header-tel {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: var(--second-color);
+   }
+   .header-link:hover,
+   .header-link:focus,
+   .header-mail:hover,
+   .header-mail:focus,
+   .header-tel:hover,
+   .header-tel:focus {
+     color: var(--accent-color);
+   }
+   
+   .header-contact-icon{
+     margin-right: 10px;
+   }
+   
+   .header-icon-mail,
+   .header-icon-tel{
+   
+     fill:var(--second-color);
+     transition-property:fill;
+   
+   }
+   .header-mail:hover .contact-icon,
+   .header-mail:focus .contact-icon,
+   .header-tel:hover .contact-icon,
+   .header-tel:focus .contact-icon{
+     fill: var(--accent-color);
+   }
+   
+   .current{
+   position:relative;
+
+   }
+   
+   
+   .current::after{
+     content: "";
+     position: absolute;
+   width: 100%;
+   height: 4px;
+   bottom: -33px;
+   left: 0;
+   background: #2196F3;
+   border-radius: 2px;
+   }
+   
