@@ -2,5 +2,17 @@
 @import "./base/normalize";
 
 @import "./components/logo";
-@import "./components/header";
-@import "./components/_header-contacts";
+@import "./components/header/header";
+@import "./components/header/header-contact";
+@import "./components/header/header-list";
+@import "./components/hero";
+@import "./components/tasks";
+@import "./components/works";
+@import "./components/team";
+@import "./components/client";
+@import "./components/footer/footer";
+@import "./components/footer/footer-address";
+@import "./components/footer/footer-social";
+@import "./components/footer/footer-email";
+
+

@@ -1,0 +1,51 @@
+.header-contact{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    &__mail,
+    &__tel{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--second-color);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: var(--main-color);
+      transition-property:color;
+    }
+    &__mail-icon,
+    &__tel-icon{
+     margin-right: 10px;
+     fill:var(--second-color);
+     transition-property:fill;
+    
+   }
+  }
+
+  .header-contact__mail{
+    margin-right: 50px;
+    &:hover,
+    &:focus{
+      .header-contact__mail-icon{
+     color: var(--accent-color);
+     fill: var(--accent-color);
+    }
+  }
+  }
+  .header-contact__tel{
+  
+    &:hover,
+    &:focus{
+      .header-contact__tel-icon{
+      color: var(--accent-color);
+      fill: var(--accent-color);
+    }
+  }
+}
+
+   
+  
+   
+   

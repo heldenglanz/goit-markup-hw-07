@@ -20,7 +20,7 @@
         
         <div class="container">
             <a class="logo" href="index.html">
-                <span class="logo-web">Web</span><span class="logo-header-studio">Studio</span>
+                <span class="logo__web">Web</span><span class="logo__header-studio">Studio</span>
             </a>
 <nav class="header-nav">
 
@@ -32,14 +32,14 @@
 
 </nav>
 <div class="header-contact">
-<a class="header-contact__mail  duration link" href=""><svg class="header-contact-icon header-icon__mail duration "  width="16"
+<a class="header-contact__mail  duration link" href=""><svg class="header-contact__mail-icon  duration "  width="16"
 height="12">
 <use href="./svg/sprite.svg#icon-envelope"></use>
 </svg>info@devstudio.com
 
 </a>
 
-<a class="header-contact__tel  duration link" href="tel:+380991111111"><svg class="header-contact-icon header-icon__tel duration "   width="10"
+<a class="header-contact__tel  duration link" href="tel:+380991111111"><svg class="header-contact__tel-icon duration "   width="10"
 height="16">
     <use href="./svg/sprite.svg#icon-phone"></use>
 </svg>+38 099 111 11 11
@@ -53,7 +53,7 @@ height="16">
     <section class="hero">
        <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-button button" type="button"data-modal-open>Заказать Услугу</button>
+            <button class="main-button button" type="button"data-modal-open>Заказать Услугу</button>
        </div>
     </section>
 
@@ -102,7 +102,7 @@ height="16">
             <ul class="team-list">
                 <li class="team-list-item">
                     <img src="./images/ihor.jpg" alt="ihor" width="270" />
-                <div class="team-name-div">
+                <div class="team-name">
                     <h3 class="team-name-title">Игорь Демьяненко</h3>
                     <p class="team-name-text">Product Designer</p>
                 
@@ -140,7 +140,7 @@ height="16">
                 </li>
                 <li class="team-list-item">
                     <img src="./images/olha.jpg" alt="olha" width="270" />
-                    <div class="team-name-div">
+                    <div class="team-name">
                         <h3 class="team-name-title">Ольга Репина</h3>
                         <p class="team-name-text">Frontend Developer</p>
                    
@@ -178,7 +178,7 @@ height="16">
                 </li>
                 <li class="team-list-item">
                     <img src="./images/nikolai.jpg" alt="nikolai" width="270" />
-                    <div class="team-name-div">
+                    <div class="team-name">
                         <h3 class="team-name-title">Николай Тарасов</h3>
                         <p class="team-name-text">Marketing</p>
                 <ul class="social-set">
@@ -215,7 +215,7 @@ height="16">
                 </li>
                 <li class="team-list-item">
                     <img src="./images/michael.jpg" alt="michael" width="270" />
-                    <div class="team-name-div">
+                    <div class="team-name">
                         <h3 class="team-name-title">Михаил Ермаков</h3>
                         <p class="team-name-text">UI Designer</p>
                     <ul class="social-set">
@@ -255,39 +255,39 @@ height="16">
     </section>
 
 
-    <section class="clients">
+    <section class="client">
 <div class="container">
-<t2 class="clients-title">Постоянные клиенты</t2>
+<t2 class="client-title">Постоянные клиенты</t2>
 
-<ul class="clients-list">
-    <li class="client-item duration "><a href="" class="client-link duration ">
-        <svg class="client-icon duration ">
+<ul class="client-list">
+    <li class="client-list__item duration "><a href="" class="client-list__link duration ">
+        <svg class="client-list__icon duration">
             <use href="./svg/sprite.svg#icon-Logo" class="icon-link"></use>
             </svg>
         </a></li>
-    <li class="client-item duration "><a href="" class="client-link duration ">
-        <svg class="client-icon duration ">
+    <li class="client-list__item duration "><a href="" class="client-list__link duration ">
+        <svg class="client-list__icon duration">
             <use href="./svg/sprite.svg#icon-Logo-1" class="icon-link"></use>
                 </svg>
             </a></li>
-    <li class="client-item duration "><a href="" class="client-link duration ">
-        <svg class="client-icon duration ">
+    <li class="client-list__item duration "><a href="" class="client-list__link duration ">
+        <svg class="client-list__icon duration">
             <use href="./svg/sprite.svg#icon-Logo-2" class="icon-link"></use>
                     </svg>
                 </a></li>
-    <li class="client-item duration "><a href="" class="client-link duration ">
-        <svg class="client-icon duration ">
+    <li class="client-list__item duration "><a href="" class="client-list__link duration ">
+        <svg class="client-list__icon duration">
             <use href="./svg/sprite.svg#icon-Logo-3" class="icon-link"></use>
                         </svg>
                     </a></li>
-    <li class="client-item duration "><a href="" class="client-link duration ">
-        <svg class="client-icon duration ">
+    <li class="client-list__item duration "><a href="" class="client-list__link duration ">
+        <svg class="client-list__icon duration">
             <use href="./svg/sprite.svg#icon-Logo-4" class="icon-link"></use>
                             </svg>
                         </a></li>
-    <li class="client-item duration "><a href="" class="client-link duration ">
-        <svg class="client-icon duration ">
-            <use href="./svg/sprite.svg#icon-Logo-5" class="icon-link"></use>
+    <li class="client-list__item duration "><a href="" class="client-list__link duration ">
+        <svg class="client-list__icon duration">
+            <use href="./svg/sprite.svg#icon-Logo-5" class="client-list__icon-link"></use>
                                 </svg>
                             </a></li>
 </ul>
@@ -297,25 +297,25 @@ height="16">
 
 
     <footer class="footer"> 
-     <div class="container footdiv">
-<div class="footer-left">
+     <div class="container">
+<div class="footer-contact">
     <a class="logo" href="index.html">
-        <span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span>
+        <span class="logo__web">Web</span><span class="logo__footer-studio">Studio</span>
     </a>
 
     <address class="address-list">
-        <ul class="footer-address-list">
-            <li class="list-item"><a class="footer-link link address" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li class="list-item"><a class="footer-mail link" href="mailto:info@example.com">info@example.com</a></li>
-            <li class="list-item"><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="footer-contact__list">
+            <li class="footer-contact__list-item"><a class="footer-contact__list-address link" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="footer-contact__list-item"><a class="footer-contact__list-mail link" href="mailto:info@example.com">info@example.com</a></li>
+            <li class="footer-contact__list-item"><a class="footer-contact__list-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
     </address>
      </div>
        
 
 
-     <div class="footer-right-div">
-         <t3 class="footer-right-title">присоединяйтесь</t3>
+     <div class="footer-social">
+         <t3 class="footer-social__title">присоединяйтесь</t3>
     <ul class="social-set">
         <li class="social-item">
             <a href="" class="social-link  duration footcolor">
@@ -348,12 +348,12 @@ height="16">
                 </ul>
                 
      </div>
-     <div class="footer-email-div">
-        <label for="email" class="footer-email-label">Подпишитесь на рассылку
-        <input type="email" id="email" class="footer-email-input" placeholder="E-mail"/>
+     <div class="footer-email">
+        <label for="email" class="footer-email__label">Подпишитесь на рассылку
+        <input type="email" id="email" class="footer-email__input" placeholder="E-mail"/>
         </label>
-        <button type="button" class="hero-button footer-email-btn button">Подписаться
-            <svg class="telegram" width="24px" height="24px">
+        <button type="button" class="main-button footer-email__btn button">Подписаться
+            <svg class="footer-email__btn-telegram" width="24px" height="24px">
                 <use href="./svg/sprite.svg#icon-telegram"></use>
             </svg>
         </button>
