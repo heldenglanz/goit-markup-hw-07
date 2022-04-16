@@ -1,4 +1,4 @@
-/* /* *{
+/* /* /* *{
   outline: solid 1px  teal;
 } */
 
@@ -397,13 +397,13 @@ padding-bottom: 30px;
 
 /*--------SOCIAL--------*/
 
-.social-set{
+.social-block{
   display: flex;
   justify-content: center;
   
 }
 
-.social-link{
+.social-block__link{
   display: block;
   padding: 12px;
   width: 44px;
@@ -412,24 +412,24 @@ padding-bottom: 30px;
   background-color: var(--white-color);
   transition-property: background-color;
 }
-.social-item:not(:last-child){
+.social-block__item:not(:last-child){
   margin-right: 10px;
 }
 
-.social-icon{
+.social-block__icon{
   fill: #AFB1B8;
   width: 20px;
   height: 20px;
   transition-property:fill, background-color;
 
 }
-.social-link:hover,
-.social-link:focus {
+.social-block__link:hover,
+.social-block__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-link:hover > .social-icon,
-.social-link:focus >.social-icon{
+.social-block__link:hover > .social-block__icon,
+.social-block__link:focus >.social-block__icon{
 fill: var(--white-color);
 }
 
@@ -548,7 +548,7 @@ margin-bottom: 20px;
 background-color:  rgba(255, 255, 255, 0.1);
 }
 
-.footcolor > .social-icon{
+.footcolor > .social-block__icon{
   fill: var(--white-color);
 }
 
@@ -901,4 +901,4 @@ rgba(0, 0, 0, 0.15)
 }
 .telegram{
   margin-left: 10px;
-} */
+}  */

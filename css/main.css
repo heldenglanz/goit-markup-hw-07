@@ -488,7 +488,7 @@ ul {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footcolor > .social-icon {
+.footcolor .footcolor .social-block__icon {
   fill: var(--white-color);
 }
 
@@ -536,5 +536,39 @@ ul {
 
 .footer-email__btn-telegram {
   margin-left: 10px;
+}
+
+.social-block {
+  display: flex;
+  justify-content: center;
+}
+
+.social-block__link {
+  display: block;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition-property: background-color;
+}
+
+.social-block__link:hover, .social-block__link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-block__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-block__icon {
+  fill: #AFB1B8;
+  width: 20px;
+  height: 20px;
+  transition-property: fill, background-color;
+}
+
+.social-block__link:hover > .social-block__icon,
+.social-block__link:focus > .social-block__icon {
+  fill: var(--white-color);
 }
 /*# sourceMappingURL=main.css.map */
