@@ -1,7 +1,9 @@
 .footer {
     background-color: #2f303a;
     padding-top: 60px;
-   &.container{
-    display: flex;
+   
   }
+
+  .footer > .container{
+    display: flex;
   }

@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
@@ -21,26 +22,26 @@
         
         <div class="container">
             <a class="logo" href="index.html">
-                <span class="logo-web">Web</span><span class="logo-header-studio">Studio</span>
+                <span class="logo__web">Web</span><span class="logo__header-studio">Studio</span>
             </a>
 <nav class="header-nav">
 
 <ul class="header-list list">
-    <li class="header-list-item"><a class="header-link duration link " href="./index.html">Студия</a></li>
-    <li class="header-list-item"><a class="header-link duration link current" href="./portfolio.html">Портфолио</a></li>
-    <li class="header-list-item"><a class="header-link duration link" href="">Контакты</a></li>
+    <li class="header-list__item"><a class="header-list__link duration link " href="./index.html">Студия</a></li>
+    <li class="header-list__item"><a class="header-list__link duration link current" href="./portfolio.html">Портфолио</a></li>
+    <li class="header-list__item"><a class="header-list__link duration link" href="">Контакты</a></li>
 </ul>
 
 </nav>
-<div class="header-contacts">
-<a class="header-mail  duration link" href=""><svg class="header-contact-icon header-icon-mail duration "  width="16"
+<div class="header-contact">
+<a class="header-contact__mail  duration link" href=""><svg class="header-contact__mail-icon  duration "  width="16"
 height="12">
 <use href="./svg/sprite.svg#icon-envelope"></use>
 </svg>info@devstudio.com
 
 </a>
 
-<a class="header-tel  duration link" href="tel:+380991111111"><svg class="header-contact-icon header-icon-tel duration "   width="10"
+<a class="header-contact__tel  duration link" href="tel:+380991111111"><svg class="header-contact__tel-icon duration "   width="10"
 height="16">
     <use href="./svg/sprite.svg#icon-phone"></use>
 </svg>+38 099 111 11 11
@@ -53,19 +54,19 @@ height="16">
     <main>
 <section class="portfolio">
     <div class="container">
-        <ul class="portfolio-btn-list">
-            <li class="portfolio-btn-item"><button class="portfolio--btn button duration " type="button">Все</button></li>
-            <li class="portfolio-btn-item"><button class="portfolio--btn button duration " type="button">Веб-сайты</button></li>
-            <li class="portfolio-btn-item"><button class="portfolio--btn button duration " type="button">Приложения</button></li>
-            <li class="portfolio-btn-item"><button class="portfolio--btn button duration " type="button">Дизайн</button></li>
-            <li class="portfolio-btn-item"><button class="portfolio--btn button duration " type="button">Маркетинг</button></li>
+        <ul class="portfolio-btn">
+            <li class="portfolio-btn__item"><button class="portfolio-btn__button button duration " type="button">Все</button></li>
+            <li class="portfolio-btn__item"><button class="portfolio-btn__button button duration " type="button">Веб-сайты</button></li>
+            <li class="portfolio-btn__item"><button class="portfolio-btn__button button duration " type="button">Приложения</button></li>
+            <li class="portfolio-btn__item"><button class="portfolio-btn__button button duration " type="button">Дизайн</button></li>
+            <li class="portfolio-btn__item"><button class="portfolio-btn__button button duration " type="button">Маркетинг</button></li>
         </ul>
     
     
         <h1 hidden>Наши проекты</h1>
-    <ul class="portfolio-projects duration ">
-    <li class="projects-item duration ">
-       <div class="project-overlay">
+    <ul class="project__list duration ">
+    <li class="project__item duration ">
+       <div class="project__overlay">
         <img src="./images/technocrack.jpg" alt="Технокряк" width ="370">
         
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
@@ -73,106 +74,106 @@ height="16">
 
        </div>
        
-        <div class="projects-div-name"><h2 class="project-name">Технокряк</h2>
-        <p class="project-text">Веб-сайт</p>
+        <div class="project__div"><h2 class="project__name">Технокряк</h2>
+        <p class="project__text">Веб-сайт</p>
         </div>
     </li>
-    <li class="projects-item duration ">
-         <div class="project-overlay"> 
+    <li class="project__item duration ">
+         <div class="project__overlay"> 
             <img src="./images/neworlean.jpg" alt="Постер" width ="370">
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
             Все это позволит посетителю получить исчерпывающие сведения компании или частном лице.</p>
 
        </div>
         
-        <div class="projects-div-name"><h2 class="project-name">Постер New Orlean vs Golden Star</h2>
-        <p class="project-text">Дизайн</p>
+        <div class="project__div"><h2 class="project__name">Постер New Orlean vs Golden Star</h2>
+        <p class="project__text">Дизайн</p>
         </div>
     </li>
-    <li class="projects-item duration ">
-         <div class="project-overlay"> 
+    <li class="project__item duration ">
+         <div class="project__overlay"> 
             <img src="./images/seafood.jpg" alt="ресторан Сифуд" width ="370">
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
             Все это позволит посетителю получить исчерпывающие сведения компании или частном лице.</p>
 
        </div>
         
-        <div class="projects-div-name"><h2 class="project-name">Ресторан Seafood</h2>
-        <p class="project-text">Приложение</p>
+        <div class="project__div"><h2 class="project__name">Ресторан Seafood</h2>
+        <p class="project__text">Приложение</p>
         </div>
     </li>
-    <li class="projects-item duration ">
-         <div class="project-overlay"> 
+    <li class="project__item duration ">
+         <div class="project__overlay"> 
             <img src="./images/prime.jpg" alt="проект Прайм" width ="377">
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
             Все это позволит посетителю получить исчерпывающие сведения компании или частном лице.</p>
 
        </div>
         
-        <div class="projects-div-name"><h2 class="project-name">Проект Prime</h2>
-        <p class="project-text">Маркетинг</p>
+        <div class="project__div"><h2 class="project__name">Проект Prime</h2>
+        <p class="project__text">Маркетинг</p>
 </div> 
 </li>
-    <li class="projects-item duration ">
-         <div class="project-overlay"> 
+    <li class="project__item duration ">
+         <div class="project__overlay"> 
             <img src="./images/boxes.jpg" alt="проект Боксес" width ="377">
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
             Все это позволит посетителю получить исчерпывающие сведения компании или частном лице.</p>
 
        </div>
         
-        <div class="projects-div-name"><h2 class="project-name">Проект Boxes</h2>
-        <p class="project-text">Приложение</p>
+        <div class="project__div"><h2 class="project__name">Проект Boxes</h2>
+        <p class="project__text">Приложение</p>
         </div>
     </li>
-    <li class="projects-item duration ">
-         <div class="project-overlay"> 
+    <li class="project__item duration ">
+         <div class="project__overlay"> 
             <img src="./images/inspiration.jpg" alt="точность без границ" width ="377">
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
             Все это позволит посетителю получить исчерпывающие сведения компании или частном лице.</p>
 
        </div>
         
-        <div class="projects-div-name"><h2 class="project-name">Inspiration has no Borders</h2>
-        <p class="project-text">Веб-сайт</p>
+        <div class="project__div"><h2 class="project__name">Inspiration has no Borders</h2>
+        <p class="project__text">Веб-сайт</p>
  </div>  
 </li>
-    <li class="projects-item duration ">
-         <div class="project-overlay"> 
+    <li class="project__item duration ">
+         <div class="project__overlay"> 
             <img src="./images/limedition.jpg" alt="Лимитед Эдишн" width ="377">
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
             Все это позволит посетителю получить исчерпывающие сведения компании или частном лице.</p>
 
        </div>
         
-        <div class="projects-div-name"><h2 class="project-name">Издание Limited Edition</h2>
-        <p class="project-text">Дизайн</p>
+        <div class="project__div"><h2 class="project__name">Издание Limited Edition</h2>
+        <p class="project__text">Дизайн</p>
     </div>
 </li>
    
-    <li class="projects-item duration ">
-         <div class="project-overlay"> 
+    <li class="project__item duration ">
+         <div class="project__overlay"> 
             <img src="./images/projectlab.jpg" alt="проект ЛАБ" width ="377">
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
             Все это позволит посетителю получить исчерпывающие сведения компании или частном лице.</p>
 
        </div>
         
-        <div class="projects-div-name"><h2 class="project-name">Проект LAB</h2>
-        <p class="project-text">Маркетинг</p>
+        <div class="project__div"><h2 class="project__name">Проект LAB</h2>
+        <p class="project__text">Маркетинг</p>
     </div>
     </li>
       
-    <li class="projects-item duration ">
-         <div class="project-overlay"> 
+    <li class="project__item duration ">
+         <div class="project__overlay"> 
             <img src="./images/growbusiness.jpg" alt="Рост бизнеса" width ="377">
         <p class="project-thumb-text duration ">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
             Все это позволит посетителю получить исчерпывающие сведения компании или частном лице.</p>
 
        </div>
         
-        <div class="projects-div-name"><h2 class="project-name">Growing Business</h2>
-        <p class="project-text">Приложение</p>
+        <div class="project__div"><h2 class="project__name">Growing Business</h2>
+        <p class="project__text">Приложение</p>
         </div>
     </li>
 </ul>
@@ -183,63 +184,63 @@ height="16">
     </main>
 
     <footer class="footer"> 
-        <div class="container footdiv">
-   <div class="footer-left">
+        <div class="container">
+    <div class="footer-contact">
        <a class="logo" href="index.html">
-           <span class="logo-web">Web</span><span class="logo-footer-studio">Studio</span>
+           <span class="logo__web">Web</span><span class="logo__footer-studio">Studio</span>
        </a>
-   
+    
        <address class="address-list">
-           <ul class="footer-address-list">
-               <li class="list-item"><a class="footer-link link address" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-               <li class="list-item"><a class="footer-mail link" href="mailto:info@example.com">info@example.com</a></li>
-               <li class="list-item"><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+           <ul class="footer-contact__list">
+               <li class="footer-contact__list-item"><a class="footer-contact__list-address link" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+               <li class="footer-contact__list-item"><a class="footer-contact__list-mail link" href="mailto:info@example.com">info@example.com</a></li>
+               <li class="footer-contact__list-item"><a class="footer-contact__list-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
            </ul>
        </address>
         </div>
           
-   
-   
-        <div class="footer-right-div">
-            <t3 class="footer-right-title">присоединяйтесь</t3>
-       <ul class="social-set">
-           <li class="social-item">
-               <a href="" class="social-link  duration footcolor">
-                   <svg class="social-icon">
+    
+    
+        <div class="footer-social">
+            <t3 class="footer-social__title">присоединяйтесь</t3>
+       <ul class="social-block">
+           <li class="social-block__item">
+               <a href="" class="social-block__link  duration footcolor">
+                   <svg class="social-block__icon">
                        <use href="./svg/sprite.svg#icon-instagram"></use>
                    </svg>
                </a>
            </li>
-           <li class="social-item">
-               <a href="" class="social-link  duration footcolor">
-                   <svg class="social-icon">
+           <li class="social-block__item">
+               <a href="" class="social-block__link  duration footcolor">
+                   <svg class="social-block__icon">
                        <use href="./svg/sprite.svg#icon-twitter"></use>
                    </svg>
                </a>
            </li>
-           <li class="social-item">
-               <a href="" class="social-link  duration footcolor">
-                   <svg class="social-icon">
+           <li class="social-block__item">
+               <a href="" class="social-block__link  duration footcolor">
+                   <svg class="social-block__icon">
                        <use href="./svg/sprite.svg#icon-facebook"></use>
                    </svg>
                </a>
            </li>
-           <li class="social-item">
-               <a href="" class="social-link  duration footcolor">
-                   <svg class="social-icon">
-                       <use href="./svg/sprite.svg#icon-linkedin" class="icon-link""></use>
+           <li class="social-block__item">
+               <a href="" class="social-block__link  duration footcolor">
+                   <svg class="social-block__icon">
+                       <use href="./svg/sprite.svg#icon-linkedin" class="icon-link"></use>
                                    </svg>
                                </a>  
                             </li>
                    </ul>
                    
         </div>
-        <div class="footer-email-div">
-           <label for="email" class="footer-email-label">Подпишитесь на рассылку
-           <input type="email" id="email" class="footer-email-input" placeholder="E-mail"/>
+        <div class="footer-email">
+           <label for="email" class="footer-email__label">Подпишитесь на рассылку
+           <input type="email" id="email" class="footer-email__input" placeholder="E-mail"/>
            </label>
-           <button type="button" class="hero-button footer-email-btn button">Подписаться
-               <svg class="telegram" width="24px" height="24px">
+           <button type="button" class="main-button footer-email__btn button">Подписаться
+               <svg class="footer-email__btn-telegram" width="24px" height="24px">
                    <use href="./svg/sprite.svg#icon-telegram"></use>
                </svg>
            </button>

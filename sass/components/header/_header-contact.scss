@@ -12,7 +12,6 @@
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.02em;
-      color: var(--main-color);
       transition-property:color;
     }
     &__mail-icon,
@@ -28,8 +27,9 @@
     margin-right: 50px;
     &:hover,
     &:focus{
+      color: var(--accent-color);
       .header-contact__mail-icon{
-     color: var(--accent-color);
+     
      fill: var(--accent-color);
     }
   }
@@ -38,8 +38,9 @@
   
     &:hover,
     &:focus{
-      .header-contact__tel-icon{
       color: var(--accent-color);
+      .header-contact__tel-icon{
+      
       fill: var(--accent-color);
     }
   }

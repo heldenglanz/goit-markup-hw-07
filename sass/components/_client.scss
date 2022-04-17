@@ -20,6 +20,7 @@
       display: block;
       width: 170px;
       height: 92px;
+      
     border-radius: 4px;
     background-color: var(--white-color);
     transition-property: background-color, border-color;
@@ -44,3 +45,8 @@
   .client-list__item:not(:last-child) {
     margin-right: 30px;
   }
+
+.client-list__link{
+  border: 1px solid #AFB1B8;
+}
+ 

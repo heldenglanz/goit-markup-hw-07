@@ -19,7 +19,7 @@
   
   .footcolor {
   background-color: rgba(255, 255, 255, 0.1);
-   .footcolor .social-block__icon{
+   & > .social-block__icon{
     fill: var(--white-color);
    }
   }
