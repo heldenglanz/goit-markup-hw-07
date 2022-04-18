@@ -1,5 +1,5 @@
 
-.project__list {
+.project{
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
@@ -74,9 +74,8 @@
   color: #FFFFFF;
   background:rgba(33, 150, 243, 0.9);
   transition-property: transform;
-  }
-
-  .project__item:hover .project-thumb-text{
+  .project__item:hover &{
     opacity: 1;
     transform:translateY(-100%);
+  }
   }

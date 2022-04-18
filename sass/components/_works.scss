@@ -1,8 +1,8 @@
-.works {
+.works{
     background-color: var(--white-color);
     padding-top: 94px;
     padding-bottom: 94px;
-    &-title {
+    &__title {
       margin-bottom: 50px;
       text-align: center;
       letter-spacing: 0.03em;
@@ -12,12 +12,12 @@
       color: var(--main-color);
       
     }
-    &-list{
+    &__list{
       display: flex;
     }
   }
     
-    .works-list-item {
+    .works__item {
       position:relative;
       width: calc((100% - 60px) / 3);
      margin-right: 30px;
@@ -26,7 +26,7 @@
      }
     }
    
-    .works-list-title{
+    .works__name{
       content:"";
       position: absolute;
      bottom: 0px;

@@ -1,14 +1,14 @@
 .tasks{
     background-color: var(--white-color);
     padding-top: 94px;
-    &-title {
+    &__title {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
       }
-    &-text{
+    &__text{
         margin-top: 10px;
         max-height: 75px;
         font-size: 14px;
@@ -17,19 +17,17 @@
         color: var(--second-color);
     }
   }
-  .tasks-list {
+  .tasks__list {
     display: flex;
   }
-  .tasks-item{
+  .tasks__item{
     width: calc((100% - 90px) / 4);
     min-width: 270px;
     &:not(:last-child){
         margin-right: 30px;
       } 
-  }
- 
-  .tasks-item::before{
-    content: "";
+    &:before{
+      content: "";
     display: block;
     height: 120px;
   margin-bottom: 30px;
@@ -37,7 +35,9 @@
   background-repeat: no-repeat;
   background-size: 70px 70px;
   background-color: #F5F4FA;
+    }
   }
+ 
   .antenna-icon::before{
   background-image: url(../svg/antenna.svg)
   }

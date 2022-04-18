@@ -1,4 +1,4 @@
-.header-contact{
+.contact{
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -23,23 +23,23 @@
    }
   }
 
-  .header-contact__mail{
+  .contact__mail{
     margin-right: 50px;
     &:hover,
     &:focus{
       color: var(--accent-color);
-      .header-contact__mail-icon{
+      .contact__mail-icon{
      
      fill: var(--accent-color);
     }
   }
   }
-  .header-contact__tel{
+  .contact__tel{
   
     &:hover,
     &:focus{
       color: var(--accent-color);
-      .header-contact__tel-icon{
+      .contact__tel-icon{
       
       fill: var(--accent-color);
     }

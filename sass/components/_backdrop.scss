@@ -19,7 +19,7 @@
     background-color: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-   &-title{
+   &__title{
     margin-bottom: 12px;
     font-weight: 700;
    font-size: 20px;
@@ -28,7 +28,7 @@
    letter-spacing: 0.03em;
    color: #212121;
    }
-  &-lable{
+  &__lable{
     display: inline-block;
     font-size: 12px;
    margin-bottom: 4px;
@@ -38,7 +38,7 @@
   }
   }
   
-  .modal-close-button{
+  .modal__close-button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@
   }
  
   /*input*/
-  .modal-input{
+  .modal__input{
     
   width: 100%;
   padding-left: 42px;
@@ -82,25 +82,29 @@
   }
   }
 
-  .modal-field{
+  .modal__field{
     position: relative;
     margin-bottom: 10px;
     &:hover,
     &:focus +.input-icon{
-        fill: var(--accent-color);
+      fill: var(--accent-color);
     }
   }
 
 
-  .modal-input-icon{
+  .modal__input-icon{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 15px;
-    transition-property: fill;;
+    transition-property: fill;
+    .modal-field:hover + &,
+    .modal-field:focus + &{
+      fill: var(--accent-color);
+    }
   }
   
-  .modal-comment{
+  .modal__comment{
   padding: 16px;
   height: 120px;
   width: 100%;
@@ -119,19 +123,16 @@
   
   
   
-  .modal-check-text{
+  .modal__check-text{
     display: flex;
     align-items: center;
     font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   cursor: pointer;
-  
-  color: var(--second-color)
-  }
-  
-  .modal-check-text::before{
-  content:"";
+  color: var(--second-color);
+  &::before{
+    content:"";
   margin-left: 10px;
   width: 16px;
   height: 15px;
@@ -140,10 +141,13 @@
   border-radius: 2px;
   
   }
+  }
+  
+  
 
   /*check*/
 
-  .modal-check{
+  .modal__check{
     display: none;
     visibility: hidden;
     pointer-events: none;
@@ -163,16 +167,12 @@
     Offset: 0px, 4px
   rgba(0, 0, 0, 0.15)
   }
-  .modal-privacy-link{
+  .modal__privacy-link{
     margin-left: 3px;
     color: var(--accent-color);
     text-decoration: underline;
   }
-  .footer-email-btn{
-    display: flex;
-    align-items: center;
-    padding-left: 29px;
-  }
+ 
   .telegram{
     margin-left: 10px;
   }  
